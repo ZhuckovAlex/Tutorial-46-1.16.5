@@ -1,0 +1,102 @@
+{
+  "surface_builder": "minecraft:grass",
+  "depth": 0.25,
+  "scale": 0.3,
+  "temperature": 0.8,
+  "downfall": 0.2,
+  "precipitation": "rain",
+  "category": "plains",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.1,
+  "effects": {
+    "sky_color": 16358913,
+    "fog_color": 16743168,
+    "water_color": 16711680,
+    "water_fog_color": 16711680,
+    "grass_color": 16711680,
+    "foliage_color": 16759552
+  },
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:village_savanna"
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:fox",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "project:redium",
+      "minecraft:lake_lava",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_double",
+      "minecraft:ore_magma",
+      "minecraft:ore_dirt",
+      "minecraft:ore_andesite",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_emerald",
+      "minecraft:ore_gravel",
+      "minecraft:ore_iron",
+      "minecraft:ore_redstone",
+      "minecraft:ore_lapis",
+      "minecraft:ore_diamond",
+      "minecraft:ore_quartz_nether",
+      "minecraft:ore_coal",
+      "minecraft:forest_rock",
+      "minecraft:acacia"
+    ]
+  ]
+}

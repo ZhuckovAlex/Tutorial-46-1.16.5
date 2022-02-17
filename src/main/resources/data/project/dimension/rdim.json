@@ -1,0 +1,62 @@
+{
+  "type": "project:rdim",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -452546176,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "seed": -452546176,
+      "altitude_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "biomes": [
+        {
+          "biome": "minecraft:mushroom_fields",
+          "parameters": {
+            "altitude": 0.1,
+            "temperature": 0.1,
+            "humidity": 0.1,
+            "weirdness": 0.1,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "project:volcanic_valley",
+          "parameters": {
+            "altitude": 0.2,
+            "temperature": 0.2,
+            "humidity": 0.2,
+            "weirdness": 0.2,
+            "offset": 0.2
+          }
+        }
+      ]
+    }
+  }
+}

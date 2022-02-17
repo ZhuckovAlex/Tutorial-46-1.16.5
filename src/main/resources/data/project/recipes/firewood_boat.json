@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "project:firewood_planks"
+    }
+  },
+  "result": {
+    "item": "project:firewood_boat"
+  }
+}

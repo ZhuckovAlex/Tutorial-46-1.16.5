@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "project:firewood_planks"
+    }
+  },
+  "result": {
+    "item": "project:firewood_stairs",
+    "count": 4
+  }
+}

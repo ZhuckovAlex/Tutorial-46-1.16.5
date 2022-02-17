@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "project:oil_flowing",
+    "project:oil_fluid"
+  ]
+}

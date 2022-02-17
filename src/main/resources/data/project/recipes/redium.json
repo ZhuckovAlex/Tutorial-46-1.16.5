@@ -1,0 +1,15 @@
+{
+  "type": "project:verstak",
+  "weather": "clear",
+  "ingredients": [
+    {
+      "item": "project:firedrop"
+    },
+    {
+      "item": "project:illusion_ruby"
+    }
+  ],
+  "output": {
+    "item": "project:redium"
+  }
+}

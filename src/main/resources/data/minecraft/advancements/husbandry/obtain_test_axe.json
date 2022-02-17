@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "project:test_axe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.husbandry.test_axe.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.test_axe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "test_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "project:test_axe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "test_axe"
+    ]
+  ]
+}

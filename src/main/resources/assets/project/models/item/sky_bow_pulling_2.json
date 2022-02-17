@@ -1,0 +1,6 @@
+{
+  "parent": "project:item/sky_bow",
+  "textures": {
+    "layer0": "project:item/sky_bow_pulling_2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "project:block/firedrop_stage0"
+    },
+    "age=1": {
+      "model": "project:block/firedrop_stage1"
+    },
+    "age=2": {
+      "model": "project:block/firedrop_stage2"
+    }
+  }
+}

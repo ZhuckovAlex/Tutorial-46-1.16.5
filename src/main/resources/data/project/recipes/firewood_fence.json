@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "#A#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "project:firewood_planks"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "project:firewood_fence"
+  }
+}

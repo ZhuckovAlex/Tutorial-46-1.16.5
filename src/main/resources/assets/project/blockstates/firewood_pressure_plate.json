@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "project:block/firewood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "project:block/firewood_pressure_plate_down"
+    }
+  }
+}

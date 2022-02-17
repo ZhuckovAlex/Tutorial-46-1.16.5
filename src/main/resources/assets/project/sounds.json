@@ -1,0 +1,17 @@
+{
+  "redium": {
+    "category": "blocks",
+    "subtitle": "project.redium",
+    "sounds": [
+      "project:redium"
+    ]
+  },
+  "what_u_need": {
+    "sounds": [
+      {
+        "name": "project:what_u_need",
+        "stream": true
+      }
+    ]
+  }
+}

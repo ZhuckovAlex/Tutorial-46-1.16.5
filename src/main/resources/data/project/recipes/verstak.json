@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crafting_table"
+    },
+    "X": {
+      "item": "project:firewood_planks"
+    }
+  },
+  "result": {
+    "item": "project:verstak"
+  }
+}
